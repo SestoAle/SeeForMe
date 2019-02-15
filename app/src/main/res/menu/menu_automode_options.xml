@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:android1="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/select_language"
+        android:title="Select Language"
+        android:icon="@drawable/icon_language_eng"
+        android1:showAsAction="always"/>
+
+    <item
+        android:id="@+id/blurmode"
+        android:title="Blur Mode"
+        android:checkable="true"
+        android:orderInCategory="100"/>
+
+    <item
+        android:id="@+id/automode"
+        android:title="Auto Mode"
+        android:checkable="true"
+        android:checked="true"
+        android:orderInCategory="100"/>
+
+    <item
+        android:id="@+id/secondPerAuto"
+        android:title="-    Seconds"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:id="@+id/voicecommandmode"
+        android:checkable="true"
+        android:title="-    Voice Command"
+        android:orderInCategory="100"/>
+
+
+
+    <!-- TEMPORANEO
+    <item
+        android:id="@+id/fade_seconds"
+        android:title="Fade"
+        android:orderInCategory="100"/>-->
+
+
+</menu>

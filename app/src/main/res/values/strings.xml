@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">SeeForMe</string>
+    <string name="language">ENG</string>
+
+    <!-- History -->
+    <string name="history">History</string>
+
+    <!-- Task -->
+    <string name="image_not_found">Image Not Found</string>
+
+    <!-- Opera Details -->
+    <string name="author_en">Author:&#160;</string>
+    <string name="year_en">Year:&#160;</string>
+    <string name="type_en">Type:&#160;</string>
+    <string name="location_en">Location:&#160;</string>
+
+    <string name="author_it">Autore:&#160;</string>
+    <string name="year_it">Anno:&#160;</string>
+    <string name="type_it">Tipo:&#160;</string>
+    <string name="location_it">Luogo:&#160;</string>
+
+    <!-- Options Descriptions -->
+
+    <string name="automode_it">Con questa opzione verrà attivata la modalità automatica. Inquadrando
+        l\'opera per alcuni secondi (impostabili alla voce Seconds), partirà automaticamente
+        l\'audioguida di ciò che stai vedendo. Per fermare l\'audio, basterà non inquadrare più
+        l\'opera.</string>
+    <string name="automode_en">With this option, the auto mode will be activated. If an artwork is
+        framed for a few seconds (settable at the voice Seconds), the audioguide of what you see
+        will start automatically. To stop the audio, just remove the artwork from the shot.</string>
+
+    <string name="blurmode_it">Attivando la blurmode, l\'applicazione metterà in risalto le opere
+        da te inquadrate, sfumando ciò che si trova intorno ad essa
+        (Attenzione: potrebbe rallentare le prestazioni dello smartphone!)</string>
+    <string name="blurmode_en">When you activate blurMode, the App highlights the framed artworks,
+        blurring what lies around it
+        (Caution: it could slow the smartphone preformance!)</string>
+
+    <string name="voicecommand_it">Attivando questa opzione potrai interagire
+        anche attraverso dei comandi vocali. Prima di sentire l\'audio dell\'opera inquadrata,
+        l\'applicazione ti chiederà se vuoi ascoltare quella particolare audioguida, a cui puoi
+        rispondere "Si" o "No" (Attenzione: il riconoscimento vocale dipende dalla
+        connessione internet dello smartphone!)</string>
+    <string name="voicecommand_en">When you activate this option you will also interact with some
+        voice commands. Before you can listen the description of the framed artwork, the App will
+        ask you if you want to hear the audioguide, to which you can answer "Yes" or "No"
+        (Caution: the voice commands depend on your internet connection!)</string>
+
+    <string name="seconds_it">Selezionando i secondi, puoi impostare il tempo che passa da quando
+        l\'applicazione riconosce l\'opera a quando partirà la descrizione vocale</string>
+    <string name="seconds_en">When you select the seconds, you can set the time that passes from
+        when the App recognizes the artwork to when the audioguide starts</string>
+
+</resources>

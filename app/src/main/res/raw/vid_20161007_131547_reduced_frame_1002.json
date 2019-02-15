@@ -1,0 +1,1 @@
+{"frame_id": 1002, "walking": "1", "video_id": "VID_20161007_131547_reduced", "bbs": [{"artwork_id": "san_giovanni_battista_donatello", "right": 0.928594, "bottom": 0.637345, "top": 0.172918, "confidence": 30, "recognized": true, "bb_big_enough": true, "class": "artwork", "left": 0.569936}], "p_voice": "0"}

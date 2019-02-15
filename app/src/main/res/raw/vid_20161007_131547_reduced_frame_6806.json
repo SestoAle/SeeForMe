@@ -1,0 +1,1 @@
+{"frame_id": 6806, "walking": "0", "video_id": "VID_20161007_131547_reduced", "bbs": [{"artwork_id": "marzocco", "right": 0.658835, "bottom": 0.590065, "top": 0.050567, "confidence": 210, "recognized": true, "bb_big_enough": true, "class": "artwork", "left": 0.276316}, {"bottom": 0.852255, "top": 0.401938, "right": 0.999521, "class": "person", "left": 0.927255}], "p_voice": "0"}

@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <!-- CAMERA2!!!-->
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionOverflowMenuStyle">@style/SettingsStyle</item>
+
+        <item name="android:textColor">@color/black</item>
+
+
+    </style>
+
+
+    <style name="SettingsStyle" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:layout_below">@id/action_bar</item>
+        <item name="overlapAnchor">false</item>
+    </style>
+
+    <style name="Footer">
+        <item name="android:fitsSystemWindows">true</item>
+    </style>
+
+    <style name="TitleName">
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">21sp</item>
+
+    </style>
+
+    <style name="MyActionBar.MenuTextStyle" parent="android:style/TextAppearance.Holo.Widget.ActionBar.Menu">
+        <item name="android:textSize">5sp</item>
+    </style>
+
+
+</resources>

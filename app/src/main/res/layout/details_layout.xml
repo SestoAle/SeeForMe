@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/details_background"
+    android:paddingBottom="@dimen/footer"
+    android:id="@+id/details">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:clickable="true"
+        android:layout_height="50dp"
+        android:background="@drawable/title_background"
+        android:id="@+id/details_title_container">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:id="@+id/details_title"
+            android:text="adasdasdasdsa"/>
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_centerVertical="true"
+            android:id="@+id/details_back"
+            android:src="@mipmap/arrow"
+            android:layout_alignParentLeft="true"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/details_title_container">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/details_image_container">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="2dp"
+                    android:background="@drawable/image_background"
+                    android:id="@+id/details_image"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:id="@+id/details_image_not_found"
+                    android:textColor="@color/white"
+                    android:textAlignment="center"
+                    android:gravity="center_vertical"
+                    android:background="@drawable/image_background" />
+
+                <ProgressBar
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:indeterminateOnly="true"
+                    android:keepScreenOn="true"
+                    android:id="@+id/details_progress_bar"/>
+
+            </RelativeLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/details_year"
+                android:textColor="@color/white"
+                android:padding="@dimen/padding_details" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/details_author"
+                android:textColor="@color/white"
+                android:paddingLeft="@dimen/padding_details"
+                android:paddingBottom="@dimen/padding_details"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:id="@+id/details_details"
+                android:paddingLeft="@dimen/padding_details"
+                android:paddingBottom="@dimen/padding_details"
+                android:paddingRight="@dimen/padding_details" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/details_type"
+                android:textColor="@color/white"
+                android:paddingLeft="@dimen/padding_details"
+                android:paddingBottom="@dimen/padding_details" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/details_dimensions"
+                android:textColor="@color/white"
+                android:paddingLeft="@dimen/padding_details"
+                android:paddingBottom="@dimen/padding_details" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="25dp"
+                android:layout_marginTop="20dp"
+                >
+
+                <ImageView
+                    android:layout_width="48dp"
+                    android:layout_height="40dp"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/headphones_icon"
+                    android:src="@drawable/headphones_icon" />
+
+                <ImageView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:id="@+id/play_pause_details"
+                    android:layout_toRightOf="@id/headphones_icon"
+                    android:src="@drawable/play_icon"
+                    android:tag="play"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    
+
+</RelativeLayout>

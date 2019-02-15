@@ -1,0 +1,1 @@
+{"frame_id": 2003, "walking": "1", "video_id": "VID_20161007_131547_reduced", "bbs": [{"artwork_id": "attis_donatello", "right": 0.636441, "bottom": 0.576481, "top": 0.231001, "confidence": 70, "recognized": true, "bb_big_enough": true, "class": "artwork", "left": 0.363885}, {"bottom": 0.906154, "top": 0.379697, "right": 0.188917, "class": "person", "left": 0.0}], "p_voice": "0"}

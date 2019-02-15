@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/button"
+    android:layout_height="@dimen/button"
+    android:background="@drawable/image_background"
+    android:layout_marginLeft="@dimen/button_horizontal_margin"
+    android:layout_marginRight="@dimen/button_horizontal_margin"
+    android:layout_marginTop="@dimen/button_vertical_margin"
+    android:tag="history_button_tmp">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:tag="history_image"
+        android:scaleType="fitXY"
+        android:padding="@dimen/border"
+        android:cropToPadding="true"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:tag="history_text"/>
+
+</RelativeLayout>

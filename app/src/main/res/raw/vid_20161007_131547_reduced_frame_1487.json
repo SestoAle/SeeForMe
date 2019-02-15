@@ -1,0 +1,1 @@
+{"frame_id": 1487, "walking": "0", "video_id": "VID_20161007_131547_reduced", "bbs": [{"right": 0.888913, "bottom": 0.810799, "top": 0.133638, "recognized": false, "bb_big_enough": true, "class": "artwork", "left": 0.455821}, {"bottom": 0.873106, "top": 0.617547, "right": 0.130043, "class": "person", "left": 0.009931}], "p_voice": "0"}

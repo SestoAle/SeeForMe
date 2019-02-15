@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ale.tesi.MainActivity"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto">
+
+    <!-- Essendo sia la statusBar che la navigationBar in Overlay, devo distinguere tra device che
+      hanno la navigationBar fisica o software. Per questo ho creato 2 RelativeView, una che riempie
+      tutto lo schermo (contentente tutte le View relative al video/camera) e l'altra che avrà
+      l'attributo fitSystemWindow = true di modo che il menù in basso non vada sotto la navigationBar
+      se quest'ultima è software-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<VideoView
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:id="@+id/video"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"/>
+            <!-opencv:show_fps="true"
+            opencv:camera_id="any"/>-->
+
+        <TextureView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentTop="true"
+            android:id="@+id/texture_video"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/blurCanvas"
+            android:alpha="0" />
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/canvas">
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+    <RelativeLayout
+        android:layout_alignParentBottom="true"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:scrollbars="horizontal"
+        android:fitsSystemWindows="true"
+        android:id="@+id/list_container">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/detailContainer">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/frame"
+                android:visibility="gone"
+                android:textColor="@color/white"
+                android:text="sdasda"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="124dp" />
+
+             />
+        </RelativeLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/footer"
+            android:background="@drawable/background_color"
+            android:scrollbarSize="@dimen/scrollbar"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/horizontalScrollView">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:id="@+id/list">
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/footstep"
+            android:layout_above="@id/horizontalScrollView"
+            android:padding="5dp"
+            android:layout_marginBottom="5dp"
+            android:src="@drawable/foot0"
+            android:layout_alignParentRight="true" />
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:id="@+id/voice"
+            android:layout_above="@id/footstep"
+            android:padding="5dp"
+            android:src="@drawable/audio0"
+            android:layout_alignParentRight="true"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/footer"
+            android:id="@+id/history"
+            android:layout_alignParentBottom="true">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:textSize="@dimen/text_history_size"
+                android:textColor="@color/white"
+                android:text="@string/history"
+                android:id="@+id/textView" />
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+</RelativeLayout>
