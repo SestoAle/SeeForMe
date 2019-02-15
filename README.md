@@ -1,7 +1,5 @@
-
-
 <p align="center">
-<img  src="https://i.imgur.com/QIFLKO0.png" width="60%" height="60%"/>
+<img  src="https://i.imgur.com/QIFLKO0.png" width="50%" height="50%"/>
 </p>
 
 A mobile App for the automatic recognition of museum artworks and the semi-automatic management of multimedia feedback.
