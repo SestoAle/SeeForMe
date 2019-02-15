@@ -43,7 +43,7 @@ of the user.
 
 ## Report
 A copy of the presentation (italian) can be found
-<a href="https://github.com/SestoAle/SeeForMe/raw/master/documents/presentation.pdf" download="presentation.pdf">here</a>.
+<a href="https://github.com/SestoAle/SeeForMe/raw/master/report/presentation.pdf" download="presentation.pdf">here</a>.
 
 ## License
 Licensed under the term of [MIT License](https://github.com/SeeForMe/DeepCrawl/blob/master/LICENSE).
