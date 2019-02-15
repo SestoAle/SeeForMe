@@ -1,4 +1,9 @@
-# SeeForMe
+
+
+<p align="center">
+<img  src="https://i.imgur.com/QIFLKO0.png" width="60%" height="60%"/>
+</p>
+
 A mobile App for the automatic recognition of museum artworks and the semi-automatic management of multimedia feedback.
 
 The project aims to realize a prototype of a **smart-interface** for a musuem audio-guide. The app is based on an 
